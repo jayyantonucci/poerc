@@ -1,4 +1,4 @@
-
+#just some basic code to get me started
 
 #gear piece [Fire, Cold, Lightning, Chaos]
 
