@@ -1,4 +1,4 @@
-##wip this is just a concept
+##wip this is a tkinter concept
 ##need to organize
 ##impliment save/load
 
