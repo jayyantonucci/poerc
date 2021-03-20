@@ -1,3 +1,5 @@
+
+
 #gear piece [Fire, Cold, Lightning, Chaos]
 
 gloves = [20, 15, 0, 10]
@@ -21,4 +23,3 @@ for i in items:
 res = [fire, cold, lightning, chaos]
 
 
-print(res)
