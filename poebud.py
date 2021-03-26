@@ -82,12 +82,16 @@ def new_item():
     window.mainloop()
 
 
-window = tk.Tk()
-window.geometry("400x300")
+def main_window():
+    window = tk.Tk()
+    window.geometry("400x300")
 
-button = tk.Button(window, text="New item", command=new_item)
-button.pack()
-button = tk.Button(window, text="list items", command=list_items)
-button.pack()
+    button = tk.Button(window, text="New item", command=new_item)
+    button.pack()
+    button = tk.Button(window, text="list items", command=list_items)
+    button.pack()
 
-window.mainloop()
+    window.mainloop()
+
+
+main_window()
