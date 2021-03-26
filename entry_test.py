@@ -8,6 +8,7 @@ item_var = tk.StringVar()
 def submit():
     r1 = r2 = r3 = r4 = 0
     a = item_var.get()
+    b = []
     splitstring = a.splitlines()
     lines = len(splitstring)
     n = splitstring[0]
@@ -24,8 +25,12 @@ def submit():
         if splitstring[i].find("% to Chaos Resistance") != -1:
             x = splitstring[i].split("%")
             r4 = x[0].replace("+", "")
-    b = [n, r1, r2, r3, r4, a]
+    b = [n, r1, r2, r3, r4]
     entry.delete(0, 'end')
+    label = tk.Label(window, text=f"{b} added")
+    label.pack()
+    f = open("test.txt", "a+")
+    f.write(f"{b}\n")
 
 
 entry = tk.Entry(window, textvariable=item_var)
