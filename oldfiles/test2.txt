@@ -1,0 +1,5 @@
+['Diamond Ring', '28', '8', 0, 0]
+['Diamond Ring', '28', 0, 0, 0]
+['Diamond Ring', '288', 0, 0, 0]
+['Diamond Ring', 33, 13, 17, 12]
+['Diamond Ring', 35, 15, 19, 12]
