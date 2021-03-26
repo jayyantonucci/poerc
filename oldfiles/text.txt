@@ -1,0 +1,31 @@
+fire 
+cold
+light
+chaos
+
+fire cold
+fire light
+fire chaos
+
+cold light
+cold chaos
+
+light chaos
+
+elemental
+
+all
+
+Diamond Ring
++50 to Strength 
++28% to Fire Resistance
++8% to Cold Resistance
++12% to Lightning and Chaos Resistance
++5% to all Elemental Resistances
+some extra text
+
+Diamond Ring
++50 to Strength 
++28% to Fire Resistance
++8% to Fire and Cold Resistance
+some extra text
